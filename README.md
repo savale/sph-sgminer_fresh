@@ -14,7 +14,7 @@ License: GPLv3.  See `COPYING` for details.
 
 ## FRESH (separate kernels)
 
-0. Use "kernel" : "x11mod" in config file or -k x11mod via command line.
+0. Use "kernel" : "fresh" in config file or -k fresh via command line.
 1. In case of instability please set a little bit lower engine frequency than a original sgminer.
 
 My experience:
