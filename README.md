@@ -19,7 +19,7 @@ License: GPLv3.  See `COPYING` for details.
 
 My experience:
 
-Single MSI R9 280x **3.4 MH/s**
+R9 280x **3.4 MH/s**
 * `"intensity" : "15",`
 * `"vector" : "1",`
 * `"worksize" : "256",`
@@ -32,8 +32,7 @@ Single MSI R9 280x **3.4 MH/s**
 * `"gpu-vddc" : "1.200",`
 * `"gpu-threads" : "2"`
 
-Rig
-5 x Sapphire R9 270x Vapor-X **10.43 MH/s** (~**2.08 MH/s per card**)
+R9 270x **2.08 MH/s**
 * `"intensity" : "15",`
 * `"vectors" : "1",`
 * `"worksize" : "128",`
@@ -51,7 +50,7 @@ NO HIDDEN MININGS )
 
 **If you satisfied, please donate**
 
-* **`BTC: `**
+* **`BTC: 1MVJCCwBoKM3bxjapb94qU6TKxKQCwRzd4`**
 
 Thanks.
 
@@ -96,7 +95,7 @@ NO HIDDEN MININGS )
 
 **If you satisfied, please donate**
 
-* **`BTC: `**
+* **`BTC: 1MVJCCwBoKM3bxjapb94qU6TKxKQCwRzd4`**
 
 Thanks.
 
