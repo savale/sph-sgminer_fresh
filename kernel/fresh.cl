@@ -26,7 +26,7 @@
  *
  * ===========================(LICENSE END)=============================
  *
- * @author   Savale <sander@savale.nl>
+ * @author   Savale <info@freshcoin.net>
  */
 
 #ifndef FRESH_CL
