@@ -7,9 +7,55 @@ This is a multi-threaded multi-pool GPU miner with ATI GPU monitoring,
 cgminer by Con Kolivas (ckolivas), which is in turn based on cpuminer by
 Jeff Garzik (jgarzik).
 
-**releases**: https://github.com/veox/sgminer/releases
+**releases**: https://github.com/savale/sph-sgminer_fresh
 
 License: GPLv3.  See `COPYING` for details.
+
+
+## FRESH (separate kernels)
+
+0. Use "kernel" : "x11mod" in config file or -k x11mod via command line.
+1. In case of instability please set a little bit lower engine frequency than a original sgminer.
+
+My experience:
+
+Single MSI R9 280x **3.4 MH/s**
+* `"intensity" : "15",`
+* `"vector" : "1",`
+* `"worksize" : "256",`
+* `"kernel" : "fresh",`
+* `"thread-concurrency" : "8192",`
+* `"lookup-gap" : "2",`
+* `"gpu-engine" : "1200",`
+* `"gpu-memclock" : "1500",`
+* `"gpu-powertune" : "20",`
+* `"gpu-vddc" : "1.200",`
+* `"gpu-threads" : "2"`
+
+Rig
+5 x Sapphire R9 270x Vapor-X **10.43 MH/s** (~**2.08 MH/s per card**)
+* `"intensity" : "15",`
+* `"vectors" : "1",`
+* `"worksize" : "128",`
+* `"kernel" : "fresh",`
+* `"thread-concurrency" : "8192",`
+* `"lookup-gap" : "2",`
+* `"gpu-engine" : "1150",`
+* `"gpu-memclock" : "1500",`
+* `"gpu-powertune" : "20",`
+* `"gpu-vddc" : "1.150,1.150,1.150,1.150,1.150",`
+* `"gpu-threads" : "2"`
+
+
+NO HIDDEN MININGS )
+
+**If you satisfied, please donate**
+
+* **`BTC: `**
+
+Thanks.
+
+
 
 ## Mod x11 (separate kernels)
 
@@ -50,15 +96,7 @@ NO HIDDEN MININGS )
 
 **If you satisfied, please donate**
 
-**Remember remember the 5th of November**
-* **`BTC: 1AiCRMxgf1ptVQwx6hDuKMu4f7F27QmJC2`**
-* **`DRK: XrVcX5LEiUVxWRTBMbomopJkfHc3uGDQHe`**
-
-**lasybear**
-* **`BTC: 1LykvDuT7PCJ2xgT513RsyWQSZ9pbrDFa6`**
-* **`MRO: 47mfp5AVx6R1Gdc6qPZeV2Ceq1Aw3HFXLRHgjW2pHszVRLzg5pe4tNPMz1NSmAYADGFmUDthoLzyBDBGEz7AoFya9QZKWcu`**
-* **`LTC: LXSi41BKaCmxHKLiEZdstk648X79YjcXpv`**
-* **`DRK: XxMb95zfrxw8Csh9hSX3T98McDGZqk3Qrm`**
+* **`BTC: `**
 
 Thanks.
 
