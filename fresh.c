@@ -93,7 +93,7 @@ inline void freshHash(void *state, const void *input)
     sph_simd512 (&ctx.simd1, hashA, 64);   
     sph_simd512_close(&ctx.simd1, hashB);
 	
-	sph_shavite512 (&ctx.shavite2,hashB, 64);   
+    sph_shavite512 (&ctx.shavite2,hashB, 64);   
     sph_shavite512_close(&ctx.shavite2, hashA); 
 	
     sph_simd512 (&ctx.simd2, hashA, 64);   
@@ -101,12 +101,6 @@ inline void freshHash(void *state, const void *input)
 	
     sph_echo512 (&ctx.echo1, hashB, 64);   
     sph_echo512_close(&ctx.echo1, hashA); 
-    
-    //sph_simd512 (&ctx.simd2, hashB, 64);   
-    //sph_simd512_close(&ctx.simd2, hashA);
-    
-    //sph_echo512 (&ctx.echo2, hashA, 64);   
-    //sph_echo512_close(&ctx.echo2, hashB); 
 
     memcpy(state, hashA, 32);
 }
